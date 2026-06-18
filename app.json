@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "ProjectDSM5SM",
+    "slug": "ProjectDSM5SM",
+    "version": "1.0.0",
+    "runtimeVersion": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "projectdsm5sm",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.projectdsm5sm"
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.projectdsm5sm",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "projectdsm5sm"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store",
+      "expo-web-browser"
+    ],
+    "extra": {
+      "apiUrl": "http://IP:8080",
+      "eas": {
+        "projectId": "5cabe7b2-c504-47d8-9547-c4c723782856"
+      }
+    },
+    "owner": "aladdin_22",
+    "updates": {
+      "url": "https://u.expo.dev/5cabe7b2-c504-47d8-9547-c4c723782856"
+    }
+  }
+}
